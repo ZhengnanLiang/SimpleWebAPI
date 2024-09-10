@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "O:\\testland\\PizzaStore\\PizzaStore.csproj": {}
+    "O:\\testland\\PizzaStore\\SimpleWebAPI\\PizzaStore\\PizzaStore.csproj": {}
   },
   "projects": {
-    "O:\\testland\\PizzaStore\\PizzaStore.csproj": {
+    "O:\\testland\\PizzaStore\\SimpleWebAPI\\PizzaStore\\PizzaStore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "O:\\testland\\PizzaStore\\PizzaStore.csproj",
+        "projectUniqueName": "O:\\testland\\PizzaStore\\SimpleWebAPI\\PizzaStore\\PizzaStore.csproj",
         "projectName": "PizzaStore",
-        "projectPath": "O:\\testland\\PizzaStore\\PizzaStore.csproj",
+        "projectPath": "O:\\testland\\PizzaStore\\SimpleWebAPI\\PizzaStore\\PizzaStore.csproj",
         "packagesPath": "C:\\Users\\zhl\\.nuget\\packages\\",
-        "outputPath": "O:\\testland\\PizzaStore\\obj\\",
+        "outputPath": "O:\\testland\\PizzaStore\\SimpleWebAPI\\PizzaStore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages"
@@ -22,7 +22,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -32,8 +32,8 @@
           "https://nuget.devexpress.com/LsryDvbaNDlydgP1Jj4tnQw7YmRzKvVai5ReMtn1r8w35WlO7g/api/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {}
           }
         },
@@ -49,8 +49,8 @@
         }
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -68,6 +68,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.18, 7.0.18]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[7.0.18, 7.0.18]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.18, 7.0.18]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.18, 7.0.18]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -76,7 +94,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     }

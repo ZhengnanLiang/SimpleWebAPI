@@ -1,0 +1,7 @@
+services: 
+    pizzastore:
+        build: 
+            context: ./PizzaStore
+            dockerfile: Dockerfile
+        ports: 
+            - "8082:80"
