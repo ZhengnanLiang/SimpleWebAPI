@@ -20,7 +20,7 @@ app.UseSwaggerUI(c =>
 });
 //}
 
-app.MapGet("/", () => "Hello World!");
+app.MapGet("/", () => "Hello World! version 2");
 
 app.MapGet("/pizzas/{id}", (int id) => PizzaDB.GetPizza(id));
 app.MapGet("/pizzas", () => PizzaDB.GetPizzas());
